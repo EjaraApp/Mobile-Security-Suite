@@ -19,12 +19,6 @@ public class SwiftMobileSecuritySuitePlugin: NSObject, FlutterPlugin {
             result(IOSSecuritySuite.amIDebugged())
         case "isRunningInEmulator":
             result(IOSSecuritySuite.amIRunInEmulator())
-        /*
-        case "isBeingReverseEngineered":
-            result(IOSSecuritySuite.amIReverseEngineered())
-        case "isDeviceProxied":
-            result(IOSSecuritySuite.amIProxied())
-         */
         default:
             result(FlutterMethodNotImplemented)
         }
